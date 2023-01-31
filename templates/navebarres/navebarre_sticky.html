@@ -1,0 +1,39 @@
+{% load static %}
+
+{% block navebarre_sticky %}
+
+
+<nav class="navbar navbar-default navbar-sticky">
+	<div class="container-fluid">
+
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> 
+				<span class="sr-only">Toggle navigation</span> 
+					<span class="icon-bar"></span> 
+					<span class="icon-bar"></span> 
+					<span class="icon-bar"></span> 
+			</button>
+		</div>
+
+		<div class="navbar-collapse collapse">
+
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="/">Home</a></li>
+				<li><a href="/about">About</a></li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">More Pages <b class="caret"></b></a>
+					<ul class="dropdown-menu">
+						<li><a href="/side_page_left">Left Sidebar</a></li>
+						<li><a href="/side_page_right">Right Sidebar</a></li>
+						<li><a href="/single">Blog Post</a></li>
+					</ul>
+				</li>
+				<li><a href="/blog/index">Blog</a></li>
+			</ul>
+
+		</div>			
+	</div>	
+</nav>
+
+
+{% endblock %}

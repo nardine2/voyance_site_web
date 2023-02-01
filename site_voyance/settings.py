@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-os#csr&vfszrsxkv_f9niv5ki+@f5qd59228myht4mwb&h4%dg
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["voyance.onrender.com]
+ALLOWED_HOSTS = ["voyance.onrender.com"]
 
 
 # Application definition
